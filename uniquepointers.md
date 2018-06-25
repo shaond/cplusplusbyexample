@@ -1,8 +1,8 @@
 # Unique Pointers
 
-Smart pointers are a C++11 addition, which allow us to have pointers, which clean up after themselves.
+Smart pointers are a C++11 addition, which allow us to have pointers, that clean up after themselves.
 
-In order to use a unique pointer, use the `std::unique_ptr` class:
+In order to use a unique pointer, use the `std::unique_ptr` class (don’t forget to `#include <memory>`):
 
 ```
 #include <memory>
@@ -33,8 +33,12 @@ public:
 };
 
 int main() {
-    Test t = Test();
+    Test t_stack = Test; // Normal instantiation in the stack
+    Test t_heap = new Test {100}; // New object in the heap
     
+    // Unique pointer
+    std::unique_ptr<Test> t {new Test{100}};
     
+    delete t_heap;
 }
 ```

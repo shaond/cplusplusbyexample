@@ -7,14 +7,16 @@ Get started with the following tutorials:
 ## Getting started
 
 * [Hello World](helloworld.md)
-* [Compiling stuff](compiling.md)
+* [Compiling programs](compiling.md)
 
 ## Variables
 
-* [Primitive Types](types.md)
+* [Primitive Types](primitivetypes.md)
 * Declaring variables
 * Constants
 * Global variables
+* The `sizeof` keyword
+* Casting between types
 
 ## Statements
 
@@ -23,12 +25,18 @@ Get started with the following tutorials:
 * The `switch` statement
 * The `do`/`while` and `while` statements
 
-
 ## Arrays
 
 * Declaring and initialising Arrays
 * Accessing and modifying Arrays
-* Pointers and more fucking pointers
+* Pointers
+* Why pointers and Arrays are (kind of) interchangeable
+
+## Functions
+
+* Specifying functions & return types
+* [Default parameters](defaultparams.md)
+* `const` functions
 
 ## Classes and structs
 
@@ -36,7 +44,7 @@ Get started with the following tutorials:
 * Friends of classes
 * Constructors & Destructors
 * Overloading constructors
-* Delegating Constructors
+* [Delegating Constructors](delegatedconstructors.md)
 * When to use a struct vs a class
 * Inheritance (Base vs. Derived classes)
 * Multiple inheritance
@@ -49,13 +57,13 @@ Get started with the following tutorials:
 
 * Virtual functions
 * Using abstract classes & virtual functions to create interfaces
-* Operator overloading
+* [The `final` specifier for classes and methods](finalspecifier.md)
 
 
-## Other shit you need to know
+## Other things you may need to know
 
-* Casting between primitive types
-* 
-
-
-&copy; 2018 Shaon Diwakar - Comments, feedback and improvements welcome!
+* Unit testing with Google Test
+* Linking with other libraries
+* [Makefiles](makefiles.md)
+* The Heap vs. Stack
+* [Coding Style Guides](codingstyles.md)

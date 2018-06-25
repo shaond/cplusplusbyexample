@@ -18,4 +18,6 @@ clean:
 	rm -rf $PNAME
 ```
 
+**NOTE** 
+
 To avoid having to specify file names in `all` and `debug` repetitively, use a variable e.g. `FILES`.
