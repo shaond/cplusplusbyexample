@@ -1,8 +1,6 @@
-# Welcome to C Plus Plus By Example
+# C Plus Plus By Example
 
-This is a collection of learnings for those beginning C++ programming.
-
-Get started with the following tutorials:
+A collection of learnings for those getting back into C++ programming. Kick off with the following tutorials:
 
 ## Getting started
 

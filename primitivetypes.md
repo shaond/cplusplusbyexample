@@ -1,6 +1,8 @@
 # Primitive Types
 
-C++ has a number of **primitive types**. These include integers, floating point numbers, boolean values and characters. In addition to this, there are extensions in the Standard Template Library (STL) for strings, vectors etc.
+C++ has a number of **primitive types**. These include integers, floating point numbers, boolean values and characters. 
+
+In addition to this, there are extensions in the Standard Template Library (STL) for strings, vectors etc.
 
 Here are some examples of basic types:
 
