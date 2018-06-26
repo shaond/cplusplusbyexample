@@ -21,6 +21,24 @@ int main() {
 }
 ```
 
-**NOTE**
+### Dangers
 
-When variables are created, but not assigned this is dangerous. In C++ there is no safety mechanism that protects you from accessing a random point in memory when using unintialised variables.
+When variables are created but not assigned, this is dangerous. 
+In C++ there is no safety mechanism that protects you from accessing a random point in memory when using unintialised variables.
+
+Here's what an unintialised variable looks like:
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int i;
+
+    cout << i << endl;
+}
+```
+💾 run this on [cpp.sh](http://cpp.sh/4xhya)
+
+This can lead to unintended side effects in your code. Most style guides prevent you from creating an unintialised variable for this reason.
