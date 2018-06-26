@@ -4,5 +4,6 @@
 @import "{{ site.theme }}";
 
 header h1 a {
+    color: inherit;
     text-decoration: none;
 }
