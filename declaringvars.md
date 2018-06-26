@@ -24,10 +24,11 @@ int main() {
 ## Dangers
 
 
-When variables are created but not assigned, this is dangerous. 
-In C++ there is no safety mechanism that protects you from accessing a random point in memory when using unintialised variables.
+When variables are created but not assigned, this is dangerous.
+In C++ there is no safety mechanism that protects you from accessing a random point in memory when
+using unassigned variables (unassigned variables have an __indeterminate value__).
 
-Here's what an unintialised variable looks like:
+Here's what an unassigned variable looks like:
 
 ```cpp
 #include <iostream>
