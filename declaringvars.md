@@ -21,7 +21,8 @@ int main() {
 }
 ```
 
-### Dangers
+## Dangers
+
 
 When variables are created but not assigned, this is dangerous. 
 In C++ there is no safety mechanism that protects you from accessing a random point in memory when using unintialised variables.
