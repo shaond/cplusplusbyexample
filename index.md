@@ -5,8 +5,8 @@
 
 ## Variables
 
+* [Declaring variables](declaringvars.md)
 * [Primitive Types](primitivetypes.md)
-* Declaring variables
 * Constants
 * Global variables
 * The `sizeof` keyword
