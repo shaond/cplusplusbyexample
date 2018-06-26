@@ -8,11 +8,11 @@ Constants are useful for defining variables which should never change during run
 using namespace std;
 
 int main() {
-    const double pi = 3.14;
+    const double pi = 3.14; // A constant variable called `pi`.
     
     cout << pi << endl;
     
-    pi = 4.08; // Fails with error "assignment of read-only variable"
+    pi = 4.08; // Fails with error "assignment of read-only variable".
     
     return 0;
 }
