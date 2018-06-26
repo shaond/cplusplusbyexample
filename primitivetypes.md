@@ -7,7 +7,7 @@ In addition to this, there are extensions in the Standard Template Library (STL)
 Here are some examples of basic types:
 
 ## Integers
-Integers are useful for a number of tasks such as looping (or iterating). They are signed by default, which means that they can have a positive or negative values.
+Integers are useful for a number of tasks such as looping (or iterating). They are signed by default, which means that they can have a positive or negative value.
 
 ```cpp
 #include <iostream>
@@ -22,5 +22,4 @@ int main() {
     unsigned int d {55}; // Unsigned can never be negative
 }
 ```
-
-Runs this code at http://cpp.sh/6eud
+Run this code at [cpp.sh](http://cpp.sh/6eud)
