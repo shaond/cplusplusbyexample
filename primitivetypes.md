@@ -22,4 +22,4 @@ int main() {
     unsigned int d {55}; // Unsigned can never be negative
 }
 ```
-Run this code at [cpp.sh](http://cpp.sh/6eud)
+:arrow_forward: Run this code at [cpp.sh](http://cpp.sh/6eud).
