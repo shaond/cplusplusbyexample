@@ -1,7 +1,3 @@
-# C Plus Plus By Example
-
-A collection of learnings for those getting back into C++ programming. Kick off with the following tutorials:
-
 ## Getting started
 
 * [Hello World](helloworld.md)
