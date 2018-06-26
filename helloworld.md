@@ -3,9 +3,9 @@
 This is a basic C++ example; it simply prints “Hello World” to our terminal screen.
 
 ```cpp
-#include <iostream> // This is a header, it tells the compiler to include a specific file.
+#include <iostream>
 
-using namespace std; // Namespaces represent a collection of code, or libraries.
+using namespace std; // Namespaces represent a collection of code.
 
 // All programs have a main function, and they always return an integer.
 // Any non-zero return value tells our shell that the program aborted abnormally.
