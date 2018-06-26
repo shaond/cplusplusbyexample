@@ -1,3 +1,7 @@
 theme: jekyll-theme-hacker
 url: http://cplusplusbyexample.com
 timezone: Australia/Sydney
+
+title: [C Plus Plus By Example]
+description: [Quick primer on C++ development]
+google_analytics: UA-53118213-2
