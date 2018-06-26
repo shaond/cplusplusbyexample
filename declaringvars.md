@@ -4,6 +4,9 @@ Declaring variables in C++ is just like you've seen in other languages:
 
 ```cpp
 #include <iostream>
+#include <vector>
+
+using namespace std;
 
 int main() {
     // Variable declarations are in the format:
@@ -16,6 +19,13 @@ int main() {
     // variable. It's not a _seperate_ assignment after the variable
     // has been created.
     int anothervar {0};
+
+    // Create a vector of integers.
+    vector<int> integers {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+    // The compiler figures out the type of `more_integers` based on the right
+    // hand side assignment.
+    auto more_integers = integers;
 
     return 0;
 }
