@@ -9,14 +9,13 @@ Here are some examples of basic types:
 ## Integers
 Integers are useful for a number of tasks such as looping (or iterating). They are unsigned by default, which means that they can have a positive or negative values.
 
-```
+```cpp
 #include <iostream>
 
 using namespace std;
 
 int main() {
     int a {0}; // The {0} represents the value that a is instantiated as.
-    
     int b {10};
     
     

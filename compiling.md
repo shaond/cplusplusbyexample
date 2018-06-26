@@ -1,8 +1,8 @@
 # Compiling Your Code
 
-This is easy as:
+Compiling programs can get a bit tricky, but for small programs, you can use the compiler directly. For large projects, you are better off using a Makefile, or other build system.
 
-```
+```bash
 g++ -Wall -std=c++14 file1.cpp file2.cpp -o thenameofyourbinary
 ```
 
