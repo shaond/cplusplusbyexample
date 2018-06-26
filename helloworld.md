@@ -14,6 +14,7 @@ int main() {
   return 0;
 }
 ```
+💾 run on [cpp.sh](http://cpp.sh/9x4gm).
 
 To compile this example, use the `g++` compiler and run the following command:
 
