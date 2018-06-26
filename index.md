@@ -7,7 +7,7 @@
 
 * [Declaring variables](declaringvars.md)
 * [Primitive Types](primitivetypes.md)
-* Constants
+* [Constants](constants.md)
 * Global variables
 * The `sizeof` keyword
 * Casting between types
