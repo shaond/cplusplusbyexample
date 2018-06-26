@@ -60,4 +60,5 @@
 * Linking with other libraries
 * [Makefiles](makefiles.md)
 * The Heap vs. Stack
+* [Outputting assembly code](asm.md)
 * [Coding Style Guides](codingstyles.md)
