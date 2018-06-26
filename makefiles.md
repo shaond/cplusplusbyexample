@@ -2,7 +2,7 @@
 
 Here’s a dead simple `Makefile`:
 
-```
+```make
 CC = g++
 CFLAGS = -Wall -std=c++14
 DEBUG = -g

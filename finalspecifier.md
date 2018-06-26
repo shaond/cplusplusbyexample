@@ -2,17 +2,17 @@
 
 The `final` specifier prevents a class from being derived from.
 
-In the case of a virtual method, the `final` specifier prevents a method from being overridden in derived classes.
+In the case of a virtual method, the `final` specifier prevents a method from being overridden in a derived class.
 
 Here’s an example, of a `final` class:
 
-```
+```cpp
 class Base final {
   // . . .
 }
 ```
 
-```
+```cpp
 class Derived final: public Base {
   // . . .
 }
@@ -20,7 +20,7 @@ class Derived final: public Base {
 
 In the case of methods:
 
-```
+```cpp
 class Vehicle {
 public:
     virtual void register();
@@ -35,7 +35,7 @@ public:
 
 class Honda: public TwoWheeler {
 public:
-    virtual voie register() final; // Causes a compiler error.
+    virtual void register() final; // Causes a compiler error.
     virtual ~Honda();
 }
 ```
