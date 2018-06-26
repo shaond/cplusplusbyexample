@@ -6,7 +6,7 @@ Declaring variables in C++ is just like you've seen in other languages:
 #include <iostream>
 
 int main() {
-    // Varible declarations are in the format:
+    // Variable declarations are in the format:
     // type name = assignment;
     int variable = 0;
 
