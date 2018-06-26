@@ -22,3 +22,5 @@ int main() {
     unsigned int d {55}; // Unsigned can never be negative
 }
 ```
+
+Runs this code at http://cpp.sh/6eud
