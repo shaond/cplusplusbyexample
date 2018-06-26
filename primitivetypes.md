@@ -5,7 +5,8 @@ C++ has a number of **primitive types**. These include integers, floating point 
 In addition to this, there are extensions in the Standard Template Library (STL) for strings, vectors etc.
 
 ## Integers
-Integers are useful for a number of tasks such as looping (or iterating). They are signed by default, which means that they can have a positive or negative value.
+Integers are useful for a number of tasks such as looping (aka iterating) and storing data.
+They are signed by default, which means that they can have a positive or negative value.
 
 ```cpp
 #include <iostream>
@@ -21,5 +22,3 @@ int main() {
 }
 ```
 💾 Run this code at [cpp.sh](http://cpp.sh/6eud).
-
-
