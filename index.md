@@ -9,7 +9,7 @@
 * [Primitive Types](primitivetypes.md)
 * [Constants](constants.md)
 * [Global variables](globalvars.md)
-* The `sizeof` keyword
+* [The `sizeof` keyword](sizeof.md)
 * Casting between types
 
 ## Statements
