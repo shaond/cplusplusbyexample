@@ -34,6 +34,7 @@
 
 ## Classes and structs
 
+* [Declaring classes and structs](classes.md)
 * Class members [public, private, protected]
 * Friends of classes
 * Constructors & Destructors
