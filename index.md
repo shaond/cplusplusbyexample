@@ -53,6 +53,12 @@
 * Virtual functions
 * Using abstract classes & virtual functions to create interfaces
 * [The `final` specifier for classes and methods](finalspecifier.md)
+* [Operator overloading](operatoroverloading.md)
+
+## Templates
+
+* [Function templates](templates.md)
+* Class templates
 
 
 ## Other things you may need to know
