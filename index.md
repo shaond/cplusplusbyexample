@@ -63,6 +63,7 @@
 
 ## Other things you may need to know
 
+* [Exceptions](exceptions.md)
 * Unit testing with Google Test
 * Linking with other libraries
 * [Makefiles](makefiles.md)
