@@ -58,7 +58,7 @@
 ## Templates
 
 * [Function templates](templates.md)
-* Class templates
+* [Class templates](classtemplates.md)
 
 
 ## Other things you may need to know
