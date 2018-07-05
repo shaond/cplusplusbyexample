@@ -23,7 +23,7 @@
 
 * Declaring and initialising Arrays
 * Accessing and modifying Arrays
-* Pointers
+* [Pass by reference and Pointers](passbyreference.md)
 * Why pointers and Arrays are (kind of) interchangeable
 
 ## Functions
