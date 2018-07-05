@@ -16,7 +16,7 @@
 
 * The `if` and `if`/`else` statements
 * The `for` statement
-* The `switch` statement
+* [The `switch` statement](switch.md)
 * The `do`/`while` and `while` statements
 * [The difference between the Arrow, Dot and Double Colons](dotarrowandcolons.md)
 
