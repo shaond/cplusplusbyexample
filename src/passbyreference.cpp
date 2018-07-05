@@ -2,10 +2,10 @@
 
 using namespace std;
 
-double average_cost(double *valuesArr, size_t count) {
+double average_cost(double *valuesArr, size_t *count) {
   double total{0};
 
-  for (unsigned i = 0; i < count; i++) {
+  for (unsigned i = 0; i < *count; i++) {
     // Here were doing pointer arithmetic,
     // so we need to dereference the pointer.
     // cout << *(valuesArr + i) << endl;
@@ -19,7 +19,7 @@ double average_cost(double *valuesArr, size_t count) {
   }
 
   // Return the average cost.
-  return (total / count);
+  return (total / *count);
 }
 
 int main() {
@@ -27,7 +27,7 @@ int main() {
   double *pPrices = prices;
   size_t size{5};
 
-  cout << average_cost(pPrices, size) << endl;
+  cout << average_cost(pPrices, &size) << endl;
 
   return 0;
 }
